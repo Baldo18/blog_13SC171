@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog para Estudiantes</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+
+    <!-- Menú superior -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Blog de 13SC171</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" >Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyecto">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nosotros">Sobre nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Imagen de presentación -->
+    <section class="hero d-flex align-items-center justify-content-center text-center">
+        <div class="container">
+            <h1 class="text-white">Bienvenidos a nuestro Blog</h1>
+        </div>
+    </section>
+
+    <!-- Sección de presentación -->
+    <section class="presentation py-5 text-center" id="nosotros">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos un grupo de estudiantes que no siempre hace las mejores elecciones, pero intentamos aprender en el proceso. Aquí compartimos nuestras presentaciones. Si algo sale mal, ¡al menos nos reímos de ello!</p>
+        </div>
+    </section>
+
+    <!-- Tarjetas de proyectos -->
+    <section class="projects py-5" id="proyecto">
+        <div class="container">
+            <h2 class="text-center mb-5">Nuestros Proyectos</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../static/img/ps.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">PLANIFICACION DE SISTEMAS</h5>
+                          <p class="card-text">La planificación de sistemas es un proceso fundamental en el desarrollo y gestión de proyectos tecnológicos. A continuacion se da a conocer el tema mediante un video de click en el boton para poder visualizarlo</p>
+                          <p><strong>Por: Baldo Sanchez Vasquez</strong></p>
+                          <a href="https://www.canva.com/design/DAGUPbMPtvA/n3IplcAe0Yu9MtznSIjjvg/view?utm_content=DAGUPbMPtvA&utm_campaign=designshare&utm_medium=link&utm_source=editor" class="btn btn-primary">Ir al video</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../static/img/ima.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">PLANIFICACION DE SISTEMAS</h5>
+                          <p class="card-text">La planificación del sistema es el proceso de organizar las actividades, recursos y cronogramas necesarios para desarrollar un sistema de software. Su propósito es definir una hoja de ruta clara para el equipo de desarrollo, que permita cumplir con los requisitos técnicos y de negocio dentro de un marco temporal y financiero específico. Para maa informacion Revise el video</p>
+                          <a href="https://drive.google.com/file/d/1j1xCl_eig1S6faw5yUYTs1h97IuoBTOs/view?usp=sharing" class="btn btn-primary">Ir al video</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 3</h5>
+                            <p class="card-text">Este proyecto estuvo casi bien... hasta que no lo estuvo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Blog de Estudiantes. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
